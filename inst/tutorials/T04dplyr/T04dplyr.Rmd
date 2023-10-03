@@ -10,7 +10,7 @@ description: >
 library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
 library(dplyr)
-data("nutrimenu", package = "debuter")
+data("nutrimenu", package = "minidebuter")
 ```
 
 Le package `dplyr` permet de réaliser de façon intuitives des transformations de tableaux. Dans ce tutoriel, nous allons nous entraîner avec les données "nutrimenu". 

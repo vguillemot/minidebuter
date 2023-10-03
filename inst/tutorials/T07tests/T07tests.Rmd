@@ -9,7 +9,7 @@ description: >
 ```{r setup, include=FALSE}
 library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
-data("nutrimenu", package = "debuter")
+data("nutrimenu", package = "minidebuter")
 ```
 
 Dans ce document, nous allons appliquer des méthodes classiques aux données de recettes : 

@@ -11,7 +11,7 @@ library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
 library(ggplot2)
 library(ggpubr)
-data("nutrimenu", package = "debuter")
+data("nutrimenu", package = "minidebuter")
 couleurs <- c("steelblue", "limegreen", "darkolivegreen", "darkorchid")
 ```
 

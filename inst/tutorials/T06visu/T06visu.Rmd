@@ -13,7 +13,7 @@ library(corrplot)
 library(pheatmap)
 library(ggvenn)
 library(RColorBrewer)
-data("nutrimenu", package = "debuter")
+data("nutrimenu", package = "minidebuter")
 compo <- data.frame(
   nutrimenu[, c("Proteines", "Glucides", "Lipides", "Fibres")],
   row.names = nutrimenu$ID)

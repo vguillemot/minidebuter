@@ -7,7 +7,7 @@ runtime: shiny_prerendered
 ```{r setup, include=FALSE}
 library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
-library(debuter)
+library(minidebuter)
 data("nutrimenu")
 ```
 
@@ -105,7 +105,7 @@ J'ai mis pour vous ce jeu de données à disposition dans le package du cours. E
 ```
 
 ```{r nutrimenu-solution}
-data("nutrimenu", package = "debuter")
+data("nutrimenu", package = "minidebuter")
 ```
 
 Consultez la page d'aide de ce jeu de données.
