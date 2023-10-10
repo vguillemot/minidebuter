@@ -4,10 +4,10 @@
 \name{minidebuter-package}
 \alias{minidebuter}
 \alias{minidebuter-package}
-\title{Package pour la formation "Débuter en R"
-Contient les vignettes (les slides de cours), le jeu de données "fruits", le jeu de données "nutrimenu"  et les tutoriels. https://vguillemot.github.io/debuter/}
+\title{Package léger pour la formation "Débuter en R"
+#' @keywords internal}
 \description{
-This package contains all the slides and data-sets used during the course DebuteR.
+Le package minidebuter est le package compagnon de la formation "Débuter en R". Ce package ne contient qu'une seule fonction, les données (fruits et nutrimenu), et les tutoriels.
 }
 \author{
 \strong{Maintainer}: Vincent Guillemot \email{vincent.guillemot@pasteur.fr}
@@ -18,4 +18,3 @@ Authors:
 }
 
 }
-\keyword{internal}

@@ -1,6 +1,6 @@
 Package: minidebuter
 Title: Le package de la formation DebuteR
-Version: 1.0
+Version: 2023
 Authors@R: 
     c(person(given = "Vincent",
            family = "Guillemot",
@@ -10,14 +10,14 @@ Authors@R:
            family = "Vaysse",
            role = c("aut"),
            email = "amaury.vaysse@pasteur.fr"))  
-Description: This package contains all the slides and data-sets used during the course DebuteR.
-Depends: R (>= 3.5.0)
-Imports: learnr, dplyr, ggplot2, RColorBrewer, ggvenn, ggpubr
+Description: Le package minidebuter est le package compagnon de la formation "Débuter en R". Ce package ne contient qu'une seule fonction, les données (fruits et nutrimenu), et les tutoriels.
+Depends: R (>= 4.0.0)
+Imports: learnr, dplyr, ggplot2, RColorBrewer, ggvenn, ggpubr, pheatmap, UpSetR
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
 Suggests: 
     knitr,
     rmarkdown
+RoxygenNote: 7.2.3
