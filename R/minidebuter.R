@@ -1,5 +1,5 @@
 #' Package léger pour la formation "Débuter en R"
-#' #' @keywords internal
+#' @keywords internal
 "_PACKAGE"
 
 #' Le jeu de données fruits
@@ -7,7 +7,7 @@
 #' Composition nutritionnelle de 51 composés alimentaires issus du groupe "fruits" défini dans les données Ciqual de 2020.
 #'
 #' La table fruits est de classe "tibble" et contient les colonnes suivantes :
-#'\itemize{
+#' \itemize{
 #'  \item nom : Nom du fruit
 #'  \item groupe : Groupe de fruit
 #'  \item Energie : Energie, (kJ/100 g)
